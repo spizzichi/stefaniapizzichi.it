@@ -1,3 +1,5 @@
 *.jpg
 *.png
 .DS_STORE
+*.pyc
+lib/

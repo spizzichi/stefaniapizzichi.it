@@ -1,0 +1,461 @@
+/*Colori*/
+.yellow {color:yellow;}
+.lightgrey {color:lightgrey;}
+.black {color:black;}
+
+/*Font*/
+h1 {font-family:brandon-grotesque; font-size: 23px; font-weight: 700;}
+h2 {font-family:brandon-grotesque; font-size: 18px;}
+h3 {font-family:brandon-grotesque;font-size: 15px; font-weight: 400;}
+h4 {font-family:iskra;}
+h5 {font-family:iskra;}
+h6 {font-family:iskra;}
+p {font-family:iskra;}
+
+.regular {font-weight: 400;}
+
+a {
+    color:lightgrey;
+}
+
+a.index {
+    color:black;
+}
+
+a:hover {
+    color:black;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgrey;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.no-left {
+    padding-left: 0px!important;
+}
+
+.mar-r-logo {
+    margin-right: 10px;
+}
+
+/*Menu0*/
+.menu0 {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+}
+.menu0 .col-md-3 {
+    height: 75px;
+}
+
+.menu0 .col-md-3 {
+    height: 75px;
+    text-align: center;
+}
+
+.menu0 .col-md-3 h1{
+    margin: 0px;
+    padding: 0px;
+    line-height: 75px;
+}
+
+.division{
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: lightgrey;
+} 
+
+.menu0 h1 > span {
+    font-size: 1em !important;
+}
+
+.fa-folder-open:before {
+    margin-left: 5px;
+}
+
+.menu0 .fa-book {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.menu0 h1.otherpage span > i:nth-child(1) {
+    color: white;
+}
+
+.menu0 h1.otherpage span > i:nth-child(2) {
+    color: lightgrey;
+}
+
+.menu0 h1.otherpage:hover span > i:nth-child(1) {
+    color: yellow;
+    position: absolute;
+    animation-name: entrata;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes entrata {
+    from{top:-75px;}
+    to{top:0px;}
+}
+
+.menu0 h1.otherpage:hover span > i:nth-child(2) {
+    color: black;
+}
+
+.menu0 h1.otherpage {
+    color: lightgrey;
+}
+
+.menu0 h1.otherpage:hover {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu0 h1 > i {
+margin-left: 50px;
+}
+
+.menu0 .fa-angle-right {
+    margin-left: 30px;
+}
+
+/*intro*/
+.intro {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+/*tag*/
+.tag {
+    margin-top: 20px;
+}
+
+.tag a, .tag a:visited {
+    display: inline;
+    float: left;
+    margin-right: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: lightgrey;
+    background-color: whitesmoke;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tag a:hover {
+    display: inline;
+    float: left;
+    margin-right: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: black !important;
+    background-color: yellow;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tag a.selected {
+    text-decoration: line-through;
+    color: black !important;
+    background-color: yellow;
+    /*font-weight: 600;*/
+}
+
+.tag p {
+    display: inline;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tag a p {
+    text-decoration: inherit;
+}
+
+/*year*/
+.select-year p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+} 
+
+.year {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.year .tag {
+    margin-top: 0px;
+}
+
+/*presentazione*/
+.presentation h1 {
+    margin-top: 15px;
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+
+.presentation h2 {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+/*all_works*/
+.all_works .col-md-2 {
+    margin-bottom: 17px;
+    height: 150px;
+    background-color: grey;
+}
+
+/*footer0*/
+.footer0 {
+    margin-top: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.triangle {
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 20px 20px 0 20px;
+	border-color: #ffffff transparent transparent transparent;
+	width: 10px;
+}
+
+.footer0 i.contact{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.footer0 i.middle{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+}
+
+.footer0 h1 {
+    margin-top:10px;
+}
+
+.footer0 h2 {
+    margin-top:50px;
+    font-weight: 700;
+}
+
+.footer0 .center {
+    text-align: center;
+    margin: 90px auto;
+    font-size: 2.2em;
+}
+
+.footer0 .fa-heart{
+    margin-top: 2px;
+}
+
+a.social {
+    color: black;
+}
+
+a.social:hover {
+    color: grey;
+}
+
+.footer0 .end{
+    margin-bottom: 50px;
+}
+
+/*link-friend*/
+.link-friend {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    text-align: center;
+}
+
+.name {
+    color: black;
+    font-weight: 600;
+}
+
+a.name:hover{
+    text-decoration: line-through;
+}
+
+/*footer1*/
+.footer1 {
+    text-align: center;
+}
+
+.footer1 i {
+    font-size: 1.2em;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.footer1 h3 {
+    text-align: center;
+    display: inline;
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.footer1 .otherpage {
+    color: lightgrey;
+}
+
+.footer1 .otherpage:hover {
+    color: black;
+}
+
+.img-top {
+    margin-top: 15px;
+    margin-bottom: 10px;
+	width: 100%!important;
+}
+
+/*allineamenti con nav fixed per anchor*/
+#work {
+    margin-top: 0px;
+    padding-top: 105px;
+}
+
+#resume {
+    margin-top: -85px;
+    padding-top: 105px;
+}
+
+#personal-detail {
+    margin-top: -70px;
+    padding-top: 85px;
+}
+
+#professional-profile {
+    margin-top: -70px;
+    padding-top: 100px;
+}
+
+#design-skills {
+    margin-top: -70px;
+    padding-top: 100px;
+}
+
+#software-skills {
+    margin-top: -70px;
+    padding-top: 100px;
+}
+
+#employment {
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+#education {
+    margin-top: -70px;
+    padding-top: 100px;
+}
+
+#awards {
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+#publications {
+    margin-top: -70px;
+    padding-top: 100px;
+}
+
+#workshops {
+    margin-top: -70px;
+    padding-top: 100px;
+}
+
+#footer {
+    margin-top: -58px;
+    padding-top: 58px;
+}
+
+/* Effect 5: same word slide in h1 menu0*/
+.menu0 .cl-effect-5 h1{
+	overflow: hidden;
+	padding: 0 4px;
+	height: 75px;
+}
+
+.menu0 .cl-effect-5 h1 span.rollover {
+	position: relative;
+	display: inline-block;
+    text-decoration: inherit;
+
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.menu0 .cl-effect-5 h1 span.rollover::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.menu0 .cl-effect-5 h1:hover span.rollover,
+.menu0 .cl-effect-5 h1:focus span.rollover {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+    line-height: 75px;
+}
+
+/** SELECTED APPLICARE SOLO SU DESKTOP**/
+ @media (min-width: 1100px) {
+	.menu0 h1.otherpage.selected span > i:nth-child(1) {
+		color: yellow;
+	}
+
+	.menu0 h1.otherpage.selected span > i:nth-child(2) {
+		color: black;
+	}
+
+	.menu0 .cl-effect-5 h1.otherpage.selected span.rollover{
+		color: black;
+		font-weight: 700;
+	}
+}
+
+/** SATURATION **/
+.saturation {
+	filter: saturate(0%);
+	-webkit-filter: saturate(0%);
+	-moz-filter: saturate(0%);
+	-o-filter: saturate(0%);
+	-ms-filter: saturate(0%);
+	opacity: 0.5;
+}
