@@ -1,0 +1,194 @@
+
+ @media (min-width: 401px) and (max-width: 1100px) {
+  .download-resume p {
+      font-size: 35px !important;
+  }
+}
+
+ @media (max-width: 1100px) {
+    .menu0 {
+        background-color: white;
+    }
+
+    .presentation h2 {
+        font-size: 28px;
+    }
+
+    .select-year p {
+        font-size: 14px;
+    }
+
+     .counts h3 {
+        font-size: 30px;
+     }
+ }
+
+@media (max-width: 1024px) {
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+
+    .menu0 {
+        background-color: white;
+    }
+
+    .menu0 h1 {
+        font-size: 23px;
+    }
+
+    .presentation h2 {
+        font-size: 26px;
+    }
+
+    .select-year p {
+        font-size: 16px;
+    }
+
+    .tag {
+        display: none;
+    }
+
+    .tag-resume {
+        display: none;
+    }
+
+    .intro-resume-title h2 {
+        font-size: 26px;
+    }
+
+    /*.download-resume {
+        display: none;
+    }*/
+
+    .personal-detail img {
+        display: none;
+    }
+
+    .counts h3 {
+        font-size: 26px;
+     }
+
+    .border-line2 {
+        border-top-color: lightgrey;
+        border-top-style: solid;
+        border-top-width: 1px;
+    }
+
+    #workshops p.info {
+        font-size: 12px;
+    }
+
+    .publications h2.title {
+        font-size: 16px;
+    }
+ }
+
+@media (max-width: 1010px) {
+    .menu0 h1 {
+        font-size: 22px;
+    }
+
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+}
+
+@media (max-width: 960px) {
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+
+    .menu0 h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px){
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+
+     .menu0 {
+        height: 75px;
+        background-color: white;
+    }
+
+    div.showmenu {
+        display: block !important;
+    }
+
+    .menu0 h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 8px;
+        padding-bottom: 2px;
+    }
+
+    .nome-cognome {
+        font-size: 24px!important;
+    }
+
+    .menu0 h1 > span {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 1.3em !important;
+        margin: 0 auto;
+    }
+
+    .border-line2 {
+        border-top-color: none;
+        border-top-style: none;
+        border-top-width: 0px;
+    }
+
+     #workshops p.info {
+        font-size: 14px;
+    }
+
+    #workshops p.date {
+        margin-top: 15px;
+    }
+
+    .publications h2.title {
+        font-size: 18px;
+    }
+
+    .triangle {
+        display: none;
+    }
+}
+
+@media (max-width: 901px) {
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+
+    .personal-detail img {
+        display: none;
+    }
+
+    .border-line2 {
+        border-top-color: none;
+        border-top-style: none;
+        border-top-width: 0px;
+    }
+
+     .counts h3 {
+        font-size: 24px;
+     }
+
+    .publications h2.title {
+        font-size: 18px;
+    }
+
+    .triangle {
+        display: none;
+    }
+ }

@@ -1,0 +1,342 @@
+@media (min-width: 1230px) and (max-width: 1399px) {
+    .menu0 {
+        background-color: white;
+    }
+
+    .presentation h2 {
+        font-size: 31px;
+    }
+
+    .tag a {
+        font-size: 15px;
+    }
+
+    .tag-resume a {
+        font-size: 15px;
+    }
+
+    .select-year p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .download-resume p {
+        font-size: 22px;
+    }
+
+    .main-content h2 {
+        font-size: 22px;
+    }
+
+    .main-content p {
+        font-size: 15px;
+     }
+
+    .personal-detail img {
+        width: 135px;
+     }
+
+     h2.perc {
+        font-size: 18px;
+     }
+
+     .counts h2 {
+         font-size: 80px;
+     }
+
+     .counts h3 {
+        font-size: 34px;
+     }
+ }
+
+ @media (min-width: 1400px) and (max-width: 1919px) {
+    .menu0 {
+        background-color: white;
+    }
+
+    .presentation h2 {
+        font-size: 35px;
+    }
+
+    .tag a {
+        font-size: 17px;
+    }
+
+    .tag-resume a {
+        font-size: 17px;
+    }
+
+	 .year {
+		margin-top: 20px;
+		margin-bottom: 30px
+	}
+
+    .select-year p {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .download-resume p {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .main-content h2 {
+        font-size: 25px;
+    }
+
+    .main-content p {
+        font-size: 18px;
+     }
+
+    .personal-detail img {
+        width: 155px;
+     }
+
+     .software {
+        height: 30px;
+     }
+
+     h2.perc {
+        font-size: 23px;
+        margin-top: 4px;
+     }
+
+     .counts h2 {
+         font-size: 80px;
+     }
+
+     .counts h3 {
+        font-size: 40px;
+     }
+
+     .triangle {
+        display: none;
+     }
+ }
+
+  @media (min-width: 1920px) and (max-width: 2559px) {
+    .menu0 {
+        background-color: white;
+    }
+
+	.presentation h1 {
+        font-size: 95px;
+    }
+
+    .presentation h2 {
+        font-size: 50px;
+    }
+
+    .tag a {
+        font-size: 25px;
+    }
+
+    .tag-resume a {
+        font-size: 25px;
+    }
+
+    .select-year p {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .download-resume p {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .main-content h2 {
+        font-size: 30px;
+    }
+
+    .main-content p {
+        font-size: 22px;
+    }
+
+	.intro-resume-title h1 {
+		font-size: 95px;
+	}
+
+    .personal-detail img {
+        width: 190px;
+     }
+
+     .software {
+        height: 30px;
+     }
+
+     h2.perc {
+        font-size: 23px;
+        margin-top: 4px;
+     }
+
+     .counts h2 {
+         font-size: 80px;
+     }
+
+     .counts h3 {
+        font-size: 55px;
+     }
+
+     .triangle {
+        display: none;
+     }
+ }
+
+ @media (min-width: 2560px) {
+    .menu0 {
+        background-color: white;
+    }
+
+	.presentation h1 {
+        font-size: 135px;
+    }
+
+    .presentation h2 {
+        font-size: 65px;
+    }
+
+    .tag a {
+        font-size: 35px;
+    }
+
+    .tag-resume a {
+        font-size: 25px;
+    }
+
+	.year {
+		margin-top: 30px;
+	}
+
+    .select-year p {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .download-resume p {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+	.tag-resume a {
+		font-size: 35px;
+	}
+
+    .main-content h2 {
+        font-size: 40px;
+    }
+
+    .main-content p {
+        font-size: 30px;
+    }
+
+	.download-resume {
+		margin-top: 30px;
+	}
+
+	.download-resume p {
+		font-size: 40px;
+	}
+
+	.intro-resume-title h1 {
+		font-size: 135px;
+	}
+
+    .personal-detail img {
+        width: 190px;
+     }
+
+    .software {
+        height: 40px;
+    }
+
+	h2.perc {
+		font-size: 35px;
+		margin-top: 1px;
+	}
+
+	.round  {
+		width: 180px;
+		height: 180px;
+	}
+
+	.counts h2 {
+         font-size: 110px;
+    }
+
+    .counts h3 {
+        font-size: 70px;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+	.footer0 h1 {
+		font-size: 60px;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.footer0 h2 {
+		font-size: 55px;
+	}
+
+	.footer0 p {
+		font-size: 30px;
+	}
+
+	.footer0 .fa-envelope {
+		display: none;
+	}
+
+	.footer0 .fa-heart{
+		font-size: 4em;
+		margin-top: 80px;
+		color: black;
+	}
+
+	.footer0 .fa-circle{
+		display: none;
+		font-size: 7em;
+		margin-top: 60px;
+	}
+
+	.footer0 i.contact {
+		font-size: 5em;
+	}
+
+	.footer0 i.middle {
+		font-size: 5em;
+		margin-top: 30px;
+	}
+
+	p.end {
+		font-size: 30px;
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+
+	.link-friend  h2 {
+		font-size: 55px;
+	}
+
+	.link-friend  p {
+		font-size: 30px;
+	}
+
+	.footer1 {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.footer1  h3 {
+		font-size: 25px;
+	}
+
+	.footer1  i {
+		font-size: 2.2em;
+		margin-left: 35px;
+	}
+ }

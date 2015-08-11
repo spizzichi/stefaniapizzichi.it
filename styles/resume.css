@@ -1,0 +1,317 @@
+a:hover, a.index:hover, a.index:visited,  a:visited {
+    color:black;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+ .filterstaturation a:visited, .tag-resume a:visited {
+    color:lightgrey;
+}
+
+/*intro-cv*/
+.intro-cv {
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+/*tag*/
+.tag-resume {
+    margin-top: 20px;
+}
+
+.tag-resume a {
+    display: inline;
+    float: left;
+    margin-right: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: lightgrey;
+    background-color: whitesmoke;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tag-resume a:hover {
+    display: inline;
+    float: left;
+    margin-right: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: black;
+    background-color: yellow;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tag-resume a.selected {
+    text-decoration: line-through;
+    color: black;
+    background-color: yellow;
+    /*font-weight: 600;*/
+}
+
+.tag-resume p {
+    display: inline;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p.text-dec-in {
+    text-decoration: inherit;
+}
+
+/*presentazione*/
+.intro-resume-title h1 {
+    margin-top: 15px;
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+.intro-resume-title h2 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/*download-resume*/
+.download-resume i {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.download-resume p {
+    font-size: 16px;
+    display: inline;
+    margin-right: 50px;
+    padding-bottom: 6px;
+    border-bottom-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.download-resume p.not-selected {
+    color: lightgrey;
+}
+
+.download-resume p.not-selected:hover {
+    color: black;
+    text-decoration: line-through;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+
+.download-resume p.not-selected:visited{
+    color: lightgrey;
+    text-decoration: none;
+    border-bottom-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+
+/*content*/
+.yellow-line {
+    border-top-color: yellow;
+    border-top-style: solid;
+    border-top-width: 5px;
+}
+
+.border-line {
+    border-top-color: lightgrey;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.border-line2 {
+    border-top-color: lightgrey;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.main-content h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    margin-top: 25px;
+}
+
+.image {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+/*personal detail*/
+.personal-detail {
+    margin-top: 30px;
+}
+
+.personal-detail img {
+    width: 120px;
+    margin-top: 25px;
+    display: inline;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+/*professional profile*/
+.professional-profile {
+    margin-top: 30px;
+}
+
+/*design skills*/
+.design-skills {
+    margin-top: 30px;
+}
+
+.design-skills .list {
+    margin-top: 25px;
+    font-weight: 400 !important;
+}
+
+.design-skills .col-md-2 h2 i{
+    margin-top: 10px;
+}
+
+.design-skills i.grey {
+    color: lightgrey;
+}
+
+/*software skills*/
+.software-skills {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.software-skills .list {
+    margin-top: 25px;
+    font-weight: 400 !important;
+    margin-bottom: 10px;
+}
+
+.software {
+    margin-top: 0px;
+    margin-right: 10px;
+    height: 23px;
+    border-radius: 0px;
+    border-radius: 5px;
+}
+
+.yellow-perc {
+    background-color: yellow;
+}
+
+.perc {
+    color: black;
+    float: left;
+    display: inline;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+/*employment + education*/
+.employment, .awards {
+    margin-top: 0px;
+}
+
+.education, .workshops, .publications {
+    margin-top: 30px;
+}
+
+
+.bottom0 {
+    margin-bottom: 0px;
+}
+
+.title {
+    margin-top: 25px;
+    margin-bottom: 0px !important;
+}
+
+.date {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+
+h2.title-bot-img {
+    margin-top: 25px;
+}
+
+
+.employment p.date {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/*conti*/
+.counts {
+    background-color: whitesmoke;
+    margin-top: 20px;
+	margin-bottom: -90px;
+}
+
+.counts h2 {
+    margin-top: 50px;
+    padding-top: 33px;
+    font-size: 80px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.counts h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.round {
+    position: relative;
+    background-color: yellow;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+/*other*/
+.employment i, .education i, .awards i, .workshops i {
+    margin-right: 5px;
+}
+
+.description {
+    margin-top: 0px;
+}
+
+p.info {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+#publications p.date {
+    margin-top: 15px;
+}
+
+#workshops p.date {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#workshops p.info {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+span.books {
+    font-size: 3em;
+    margin-top: 25px;
+    color: lightgrey;
+}
