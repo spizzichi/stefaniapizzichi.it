@@ -1,0 +1,12 @@
+#slimscrollthis #scroll-inner .col-xs-10 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#slimscrollthis #scroll-inner .col-xs-10 h1 {
+    font-size: 30px;
+}
+
+#slimscrollthis #scroll-inner .col-xs-10 h3 {
+    font-size: 20px;
+}

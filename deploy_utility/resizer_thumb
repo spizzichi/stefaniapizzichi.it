@@ -1,0 +1,15 @@
+#!/bin/bash
+for f in $(find . -name '*.jpg'); do
+  basename=$(basename "${f}");
+  echo $FILE;
+  echo $f;
+  FILE="./small/$basename";
+  echo $FILE;
+  convert $f -resize 375 $FILE;
+  FILE="./medium/$basename";
+  echo $FILE;
+  convert $f -resize 600 $FILE;
+  FILE="./large/$basename";
+  echo $FILE;
+  convert $f -resize 1111 $FILE;
+done

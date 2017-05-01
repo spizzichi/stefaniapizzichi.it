@@ -1,0 +1,198 @@
+@media (min-width: 320px) and (max-width: 479px) {
+	
+	div.container-fluid {
+		overflow-x: hidden !important;
+	}
+
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+    
+    .menu0 {
+        text-align: center;
+    }
+    
+    .menu0 h1 > span {
+        font-size: 1.2em !important;
+    }
+    
+    .menu0 h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    
+    h1.nome-cognome {
+        margin-top: 5px;
+    }
+    
+    #sp {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #sp .mar-r-logo {
+        margin-right: 0px;
+    }
+    
+    #showsubmenu h1, #resumemenu h1, #contact h1 {
+        padding-top: 15px;
+        padding-bottom: 12px;
+    }
+    
+    .presentation h2 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    
+    .intro-resume-title h1 {
+        font-size: 50px;
+    }
+    
+    .border-line-b {
+        border-bottom-color: lightgrey;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+    
+    .marg-top {
+        margin-top: 20px;
+    }
+    
+    .employment .title {
+        line-height:27px;
+    }
+    
+    .design-skills .list {
+        font-size: 17px;
+    }
+    
+    .design-skills i {
+        margin-top: 10px;
+    }
+    
+    .counts h3 {
+        font-size: 33px;
+     }
+    
+    .publications span {
+        font-size: 2.2em;
+    }
+    
+    .link-friend h2 {
+        margin-top: 30px;
+    }
+    
+    .footer0 .center{
+        margin: 0 auto;
+    }
+    
+    .footer1 {
+        margin-top: 20px;
+    }
+    
+    i.first-link-footer {
+        margin-left: 0px!important;
+    }
+    
+    .footer1 .end {
+        text-align: center;
+        display: block;
+        margin-top: 23px!important;
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .footer1 i {
+        font-size: 1.5em;
+        margin-top: 23px;
+        margin-bottom: 20px;
+        margin-left: 38px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 370px) {
+    .presentation h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .personal-detail p, #professional-profile p {
+        font-size: 16px;
+    }
+    
+    .design-skills h2.list, .software-skills h2.list {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 390px) {
+    .presentation h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+    
+@media (min-width: 391px) and (max-width: 410px) {
+    .presentation h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 421px) {
+    .presentation h2 {
+        font-size: 29px;
+        line-height: 34px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 500px) {
+    .presentation h2 {
+        font-size: 33px;
+        line-height: 42px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .footer0 .center{
+        margin: 0 auto;
+    }
+    
+    .link-friend h2 {
+        margin-top: 30px;
+    }
+    
+    .footer1 {
+        margin-top: 20px;
+    }
+    
+    i.first-link-footer {
+        margin-left: 0px!important;
+    }
+    
+    .footer1 .end {
+        text-align: center;
+        display: block;
+        margin-top: 23px!important;
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .footer1 i {
+        font-size: 1.5em;
+        margin-top: 23px;
+        margin-bottom: 20px;
+        margin-left: 38px;
+        text-align: center;
+    }
+}

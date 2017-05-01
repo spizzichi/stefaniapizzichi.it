@@ -1,0 +1,78 @@
+@media (max-width: 835px) {
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+    
+    .menu0 {
+        background-color: white;
+    }
+    
+    .design-skills .list {
+        font-size: 17px;
+    }
+    
+    .presentation h2 {
+        font-size: 28px;
+    }
+    
+    .border-line2 {
+        border-top-color: none;
+        border-top-style: none;
+        border-top-width: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #main_works a:hover img {
+        position: inherit !important;
+        opacity: 0.2;
+    }
+    
+    .menu0 {
+        height: 75px;
+        background-color: white;
+    }
+    
+    div.showmenu {
+        display: block !important;
+    }
+
+    .menu0 h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 8px;
+        padding-bottom: 2px;
+    }
+    
+    .nome-cognome {
+        font-size: 24px!important;
+    }
+    
+    .menu0 h1 > span {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 1.3em !important;
+        margin: 0 auto;
+    }
+    
+    .presentation h2 {
+        font-size: 28px;
+    }
+    
+    .design-skills .list {
+        font-size: 16px;
+    }
+    
+    .border-line2 {
+        border-top-color: none;
+        border-top-style: none;
+        border-top-width: 0px;
+    }
+    
+    .counts h3 {
+        font-size: 21px;
+     }
+}

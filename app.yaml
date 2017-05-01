@@ -1,0 +1,57 @@
+application: stefania-pizzichi
+version: 01-mag-17
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+# default_expiration: "10m"
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /images
+  static_dir: images
+
+- url: /styles
+  static_dir: styles
+
+- url: /scripts
+  static_dir: scripts
+
+- url: /index-partial
+  script: index.app
+
+- url: /sitemap\.xml
+  static_files: sitemap.xml
+  upload: sitemap\.xml
+
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /robots\.txt
+  static_files: robots.txt
+  upload: robots\.txt
+
+- url: /fancybox
+  static_dir: fancybox
+
+- url: /works/.*
+  script: index.app
+
+- url: /enquire
+  static_dir: enquire
+
+- url: /touchswipe
+  static_dir: touchswipe
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest

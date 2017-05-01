@@ -1,0 +1,14 @@
+jquery has attr to-src
+	generare src con http://img.stefaniapizzichi.it/{{IMGPATH}}/{to-src}
+
+
+convert ../anthea/*.png -resize 200 -set filename:fname '%t' +adjoin '%[filename:fname].png'
+
+predalay ha messo su GS predelay invece il JS genera pre-delay nel nome dei file png
+
+
+find works-orig/ -name "videobg.png" -exec cp "{}" works/"{}" \;
+
+mogrify -format jpg *.png
+
+gsutil -m cp -r works gs://gs.stefaniapizzichi.it/

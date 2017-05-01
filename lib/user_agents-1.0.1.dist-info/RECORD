@@ -1,0 +1,14 @@
+user_agents/__init__.py,sha256=-aF13YMj9MsCnjVkFzo0M7I8QALe6njjs9cXmda_bUQ,48
+user_agents/compat.py,sha256=R6UVuv3svZcpIXIj4yS6nfBeWNLu95Sv9j1oDI80_J8,188
+user_agents/parsers.py,sha256=gadywu07HJo18aOYuGROHhLj2eRHpj6E-cKJyvWsEiw,7193
+user_agents/tests.py,sha256=SboVOzyitnbKHv5iGK9m9mavtRRTsq20sJw96Wtug5U,13106
+user_agents-1.0.1.dist-info/DESCRIPTION.rst,sha256=Rz0ayTObUpqwzUx18dgbFrXKGfWEBdmhvv4nr4hL8tU,6574
+user_agents-1.0.1.dist-info/METADATA,sha256=n9diItkVOCANa8FkZu9Z407O4PRoXaBmF7D_MxuZEx0,7566
+user_agents-1.0.1.dist-info/metadata.json,sha256=6Fib4AnUXg6asb-9FrCm64cF-H1uAD7AcN1OTBzv2Aw,1114
+user_agents-1.0.1.dist-info/RECORD,,
+user_agents-1.0.1.dist-info/top_level.txt,sha256=zjLro7WPhO9c1Fgwdj7f-LVroJEeE26GO7oc40FBLVY,12
+user_agents-1.0.1.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+user_agents/parsers.pyc,,
+user_agents/tests.pyc,,
+user_agents/compat.pyc,,
+user_agents/__init__.pyc,,

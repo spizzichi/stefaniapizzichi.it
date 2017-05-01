@@ -1,0 +1,13 @@
+for f in $(find stefaniapizzichi.it/works/ -name '*.png'); do
+  DIR=$(dirname "${f}");
+  echo "${DIR}";
+  DIR="/home/elgoog/Scaricati/gs.stefaniapizzichi.it/${DIR}";
+  echo "${DIR}";
+  mkdir -p $DIR;
+  FILE=$(basename "${f}");
+  echo $FILE;
+  echo $f;
+  FILE="${DIR}/medium_$FILE";
+  echo $FILE;
+  convert $f -resize 600 $FILE;
+done

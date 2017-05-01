@@ -1,0 +1,3 @@
+use
+apt-get install python-dev python-pip
+pip install -t lib pyyaml ua-parser user-agents

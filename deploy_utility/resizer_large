@@ -1,0 +1,14 @@
+#!/bin/bash
+for f in $(find works-orig/ -name '*.png'); do
+  DIR=$(dirname "${f}");
+  echo "${DIR}";
+  DIR="works/${DIR}";
+  echo "${DIR}";
+  mkdir -p $DIR;
+  FILE=$(basename "${f}");
+  echo $FILE;
+  echo $f;
+  FILE="${DIR}/large_$FILE";
+  echo $FILE;
+  convert $f -resize 1024 $FILE;
+done

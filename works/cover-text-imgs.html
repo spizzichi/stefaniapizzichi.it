@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    {% include 'works/top-bar.html' %}
+    <div class="row">
+        <div id="slimscrollthis" class="col-xs-12" style="padding: 0px; width: 100%;">
+            <div id="scroll-inner">
+                <img style="width: 100%" src="http://gs.stefaniapizzichi.it/works/{{work}}/small_{{work}}_cover.png" />
+                <div class="container-fluid" style="background-color: white;">
+                    <div class="row">
+                        {% include 'works/text.html' %}
+                    </div>                
+                </div>
+                {% for n in range(nimages) %}
+                    {% if nimages == 1 %}
+                    <img style="width: 100%" src="http://gs.stefaniapizzichi.it/works/{{work}}/small_{{ work }}.png" />
+                    {% else %}
+                    <img style="width: 100%" src="http://gs.stefaniapizzichi.it/works/{{work}}/small_{{ work }}_{{ n + 1}}.png" />
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

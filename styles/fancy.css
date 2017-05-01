@@ -1,0 +1,233 @@
+div.menulight {
+    width: auto;
+    position: static;
+    height: auto;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    z-index: 99999999;
+    position: relative;
+    height: 60px;
+}
+
+div.menulight h1 > i {
+    margin-left: 0;
+}
+
+div.menulight > div {
+    background-color: transparent;
+}
+
+div.menulight h1.regular {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+}
+
+div.menulight h1.otherpage span > i:nth-child(1) {
+    color: yellow;
+    position: absolute;
+    animation-name: none;
+}
+
+
+div.menulight h1.otherpage:hover span > i:nth-child(1) {
+    color: yellow;
+    position: absolute;
+    animation-name: none;
+}
+
+div.menulight h1.regular span > i:nth-child(2) {
+    color: #000;
+}
+
+div.menulight h1.regular span i.fasmall {
+    font-size: 1.4em;
+}
+
+.fancybox-wrap iframe.vimeo-cover {
+    height: 400px;
+}
+
+.fb-xs-left {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 769px) {
+    .fb-xs-left > span:first-child{
+        margin-left: 0px;
+    }
+
+    .fb-xs-left > span:nth-child(4) {
+        margin-left: 0px;
+        line-height: 23px;
+        margin-top: -5px;
+    }
+
+    .menulight h1 > span {
+        font-size: 0.8em!important;
+    }
+
+    .fancyControlsWrapper a:nth-child(1), .fancyControlsWrapper a:nth-child(2) {
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .fb-xs-left {
+        text-align: left;
+    }
+    .fancybox-wrap iframe.vimeo-cover {
+        height: 200px;
+    }
+}
+
+div.menulight span.fancy-title-font {
+    font-size: 20px !important;
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    div.menulight span.fancy-title-font {
+        font-size: 23px !important;
+    }
+    .fancybox-wrap iframe.vimeo-cover {
+        height: 400px;
+    }
+}
+
+#scroll-inner img {
+    display: block;
+}
+
+#slimscrollthis #scroll-inner .col-xs-10 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#slimscrollthis #scroll-inner .col-xs-10 h1 {
+    font-size: 30px;
+}
+
+#slimscrollthis #scroll-inner .col-xs-10 h3 {
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.fancybox-wrap iframe.vimeo {
+    position: absolute;
+    top: 11%;
+    margin-left: 10%;
+    width: 79%;
+    height: 66%;
+}
+
+.fancybox-wrap iframe.vimeo-cover {
+    width: 100%;
+}
+
+div.fancyControlsWrapper {
+    -webkit-align-self: center;
+    align-self: center;
+    text-align:right;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.fb-title-wrapper {
+    align-self: center;
+    -webkit-align-self: center;
+    max-height: 60px;
+}
+
+.align-self-center {
+    align-self: center;
+    -webkit-align-self: center;
+}
+
+
+/**********************/
+/** FIX 16 GENNAIO 2016 **/
+@media (min-width: 1800px) {
+  #main_works a:hover .text-image {
+    margin-top: 153px;
+  }
+
+  #main_works h1 {
+    font-size: 52px;
+  }
+
+  #main_works h2 {
+    font-size: 44px;
+  }
+
+  #main_works .thumbcol span.fa-stack {
+    font-size: 31px;
+  }
+}
+
+
+@media (min-width: 2200px) {
+  #slimscrollthis #scroll-inner .col-xs-10 h1 {
+    font-size: 35px;
+  }
+
+  #slimscrollthis #scroll-inner .col-xs-10 h3 {
+    font-size: 23px;
+    line-height: 45px;
+  }
+
+  #slimscrollthis #scroll-inner .col-xs-10 p {
+    font-size: 20px;
+  }
+}
+
+/*** 7 GENNAIO 2016 ***/
+#main_works a.thumbcol span {
+    -webkit-transform: translate3d(0px,-10px,0);
+    transform: translate3d(0px,-10px,0);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0;
+}
+#main_works a.thumbcol:hover span {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    transition-delay: .5s;
+}
+
+#main_works h2 {
+    -webkit-transform: translate3d(0px,-10px,0);
+    transform: translate3d(0px,-10px,0);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0;
+}
+
+#main_works a.thumbcol:hover h2 {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
